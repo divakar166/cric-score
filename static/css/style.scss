@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Syne+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    .nav{
+        height: 8vh;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 10px;
+        .title{
+            font-size: 2.5rem;
+            color: #fff;
+            font-family: 'Amatic SC';
+            cursor: pointer;
+            span{
+                color: #ee120e;
+            }
+            &:hover{
+                color: #ee120e;
+                span{
+                    color: #fff;
+                }
+            }
+        }
+        .nav-items{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a{
+                text-decoration: none;
+                color: #ee120e;
+                font-size: 1.25rem;
+                padding: 0 5px;
+                font-family: 'Syne Mono';
+                &:hover{
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .container{
+        color: #fff;
+        margin: 10px 20px;
+        .inner_div{
+            display: flex;
+            .featured_matches,.ranking{
+                width: 50%;
+                font-family: 'Syne Mono';
+                .title{
+                    font-size: 1.25rem;
+                    text-transform: uppercase;
+                }
+            }
+            .featured_matches{
+                .fm-item-div{
+                    margin: 10px;
+                    .cb-pos-rel{
+                        margin: 10px 0;
+                    }
+                    .cb-hmscg-bwl-txt{
+                        display: flex;
+                    }
+                    .cb-hmscg-tm-nm{
+                        width: 60px;
+                    }
+                    .cb-hmscg-bat-txt{
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+}

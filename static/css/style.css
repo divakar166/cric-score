@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Syne+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_container {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+.main_container .nav {
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+.main_container .nav .title {
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: "Amatic SC";
+  cursor: pointer;
+}
+.main_container .nav .title span {
+  color: #ee120e;
+}
+.main_container .nav .title:hover {
+  color: #ee120e;
+}
+.main_container .nav .title:hover span {
+  color: #fff;
+}
+.main_container .nav .nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_container .nav .nav-items a {
+  text-decoration: none;
+  color: #ee120e;
+  font-size: 1.25rem;
+  padding: 0 5px;
+  font-family: "Syne Mono";
+}
+.main_container .nav .nav-items a:hover {
+  color: #fff;
+}
+.main_container .container {
+  color: #fff;
+  margin: 10px 20px;
+}
+.main_container .container .inner_div {
+  display: flex;
+}
+.main_container .container .inner_div .featured_matches, .main_container .container .inner_div .ranking {
+  width: 50%;
+  font-family: "Syne Mono";
+}
+.main_container .container .inner_div .featured_matches .title, .main_container .container .inner_div .ranking .title {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+.main_container .container .inner_div .featured_matches .fm-item-div {
+  margin: 10px;
+}
+.main_container .container .inner_div .featured_matches .fm-item-div .cb-pos-rel {
+  margin: 10px 0;
+}
+.main_container .container .inner_div .featured_matches .fm-item-div .cb-hmscg-bwl-txt {
+  display: flex;
+}
+.main_container .container .inner_div .featured_matches .fm-item-div .cb-hmscg-tm-nm {
+  width: 60px;
+}
+.main_container .container .inner_div .featured_matches .fm-item-div .cb-hmscg-bat-txt {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
